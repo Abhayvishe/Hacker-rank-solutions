@@ -18,7 +18,12 @@ ORDER BY NAME DESC;
 SELECT *
 FROM CITY;
 
--- Problem: Query all columns (attributes) for every row in the CITY table.
+-- Problem: Query all columns for a city in CITY with the ID 1661
 -- Platform: HackerRank
 -- Difficulty: Easy
 -- Topic: SQL Basics
+
+SELECT *
+FROM CITY
+WHERE ID = 1661;
+
