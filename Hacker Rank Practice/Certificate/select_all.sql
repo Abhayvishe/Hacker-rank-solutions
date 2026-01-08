@@ -10,4 +10,15 @@ WHERE CountryCode = 'USA'
 ORDER BY NAME DESC;
 
 
+-- Problem: Query all columns (attributes) for every row in the CITY table.
+-- Platform: HackerRank
+-- Difficulty: Easy
+-- Topic: SQL Basics
 
+SELECT *
+FROM CITY;
+
+-- Problem: Query all columns (attributes) for every row in the CITY table.
+-- Platform: HackerRank
+-- Difficulty: Easy
+-- Topic: SQL Basics
