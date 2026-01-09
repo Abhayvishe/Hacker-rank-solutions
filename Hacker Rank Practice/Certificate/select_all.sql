@@ -75,3 +75,17 @@ FROM STATION;
 -- Difficulty: Easy
 -- Topic: SQL Basics
 SELECT DISTINCT CITY FROM STATION WHERE SUBSTR(CITY, 1, 1) IN ('A', 'E', 'I', 'O', 'U');
+
+
+
+-- Problem: Query the list of CITY names from STATION which have vowels (i.e., a, e, i, o, and u) as both their first and last characters.
+-- Platform: HackerRank
+-- Difficulty: Easy
+-- Topic: SQL Basics
+SELECT DISTINCT city FROM station WHERE UPPER(LEFT(city, 1)) IN ('A', 'E', 'I', 'O', 'U') AND LOWER(RIGHT(city, 1)) IN ('a', 'e', 'i', 'o', 'u');
+
+
+
+
+
+
