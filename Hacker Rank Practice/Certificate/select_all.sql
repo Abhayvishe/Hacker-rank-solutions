@@ -114,3 +114,13 @@ select distinct city from station where not upper(left(city,1)) in ('A','I','E',
 -- Topic: SQL Basics
 SELECT Name FROM STUDENTS WHERE Marks > 75 ORDER BY RIGHT(Name, 3), ID ASC;
 
+
+
+
+-- Problem: Write a query that prints a list of employee names (i.e.: the name attribute) from the Employee table in alphabetical order.
+-- Platform: HackerRank
+-- Difficulty: Easy
+-- Topic: SQL Basics
+SELECT NAME FROM EMPLOYEE ORDER BY NAME ASC;
+
+
