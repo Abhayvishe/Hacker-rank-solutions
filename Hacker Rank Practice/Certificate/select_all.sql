@@ -47,3 +47,31 @@ WHERE CountryCode = 'JPN';
 -- Topic: SQL Basics
 SELECT CITY, STATE
 FROM STATION;
+
+
+
+-- Problem: Query a list of CITY names from STATION for cities that have an even ID number.
+-- Platform: HackerRank
+-- Difficulty: Easy
+-- Topic: SQL Basics
+SELECT DISTINCT city FROM station WHERE MOD(id, 2) = 0;
+
+
+
+
+-- Problem: Find the difference between the total number of CITY entries in the table and the number of distinct CITY entries in the table
+-- Platform: HackerRank
+-- Difficulty: Easy
+-- Topic: SQL Basics
+SELECT
+  COUNT(CITY) - COUNT(DISTINCT CITY) AS city_duplicate_diff
+FROM STATION;
+
+
+
+
+-- Problem: Query the list of CITY names starting with vowels (i.e., a, e, i, o, or u) from STATION.
+-- Platform: HackerRank
+-- Difficulty: Easy
+-- Topic: SQL Basics
+SELECT DISTINCT CITY FROM STATION WHERE SUBSTR(CITY, 1, 1) IN ('A', 'E', 'I', 'O', 'U');
