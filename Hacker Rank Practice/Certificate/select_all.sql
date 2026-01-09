@@ -87,5 +87,25 @@ SELECT DISTINCT city FROM station WHERE UPPER(LEFT(city, 1)) IN ('A', 'E', 'I', 
 
 
 
+-- Problem: Query the list of CITY names from STATION that do not start with vowels. 
+-- Platform: HackerRank
+-- Difficulty: Easy
+-- Topic: SQL Basics
+select distinct city from station where upper(left(city,1)) not in ('A','E','I','O','U');
+
+
+
+
+
+-- Problem: Query the list of CITY names from STATION that either do not start with vowels or do not end with vowels.
+-- Platform: HackerRank
+-- Difficulty: Easy
+-- Topic: SQL Basics
+select distinct city from station where not upper(left(city,1)) in ('A','I','E','O','U') OR not upper(right(city,1)) in ('A','I','E','O','U');
+
+
+
+
+
 
 
