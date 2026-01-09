@@ -12,6 +12,8 @@ Structured solutions to HackerRank problems in SQL and Python, organized by diff
 - SQL: 15+ problems solved
 - Python: 10+ problems solved
 
+
+
 ### HackerRank Profile
 🔗 https://www.hackerrank.com/profile/abhayvishe4126
 
