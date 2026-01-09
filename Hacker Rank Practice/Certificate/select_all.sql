@@ -131,3 +131,20 @@ SELECT NAME FROM EMPLOYEE ORDER BY NAME ASC;
 -- Difficulty: Easy
 -- Topic: SQL Basics
 SELECT NAME FROM EMPLOYEE WHERE SALARY > 2000 AND MONTHS < 10 ORDER BY EMPLOYEE_ID ASC;
+
+
+
+
+-- Problem:Write a query identifying the type of each record in the TRIANGLES table using its three side lengths. Output one of the following statements for each record in the table:
+-- Platform: HackerRank
+-- Difficulty: Easy
+-- Topic: SQL Basics
+SELECT
+
+CASE WHEN (A+B<=C) OR (B+C<=A) OR (A+C<=B) THEN 'Not A Triangle'
+
+WHEN (A=B) AND (B=C) THEN 'Equilateral' WHEN (A=B) OR (A=C) OR (B=C) THEN 'Isosceles'
+
+ELSE 'Scalene' END AS TYPE FROM TRIANGLES;
+
+
