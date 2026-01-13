@@ -10,7 +10,7 @@ Structured solutions to HackerRank problems in SQL and Python, organized by diff
 
 ### Current Progress
 - SQL: 21+ problems solved
-- Python: 10+ problems solved
+- Python: 11+ problems solved
 
 
 
