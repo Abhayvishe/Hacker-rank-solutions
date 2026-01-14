@@ -163,3 +163,22 @@ SELECT COUNT(*) from CITY where POPULATION>100000;
 
 
 
+-- Problem:Query the total population of all cities in CITY where District is California.
+-- Platform: HackerRank
+-- Difficulty: Easy
+-- Topic: SQL Basics
+
+Select SUM(Population)
+from city
+where District ='California';
+
+
+
+
+
+
+
+
+
+
+
