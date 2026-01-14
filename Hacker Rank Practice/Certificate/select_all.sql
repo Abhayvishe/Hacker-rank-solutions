@@ -148,3 +148,18 @@ WHEN (A=B) AND (B=C) THEN 'Equilateral' WHEN (A=B) OR (A=C) OR (B=C) THEN 'Isosc
 ELSE 'Scalene' END AS TYPE FROM TRIANGLES;
 
 
+
+
+
+
+-- Problem: Query a count of the number of cities in CITY having a Population larger than 100000.
+-- Platform: HackerRank
+-- Difficulty: Easy
+-- Topic: SQL Basics
+
+SELECT COUNT(*) from CITY where POPULATION>100000;
+
+
+
+
+
