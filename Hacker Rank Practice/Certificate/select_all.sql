@@ -186,6 +186,13 @@ where District ='California';
 
 
 
+-- Problem:Query the difference between the maximum and minimum populations in CITY.
+-- Platform: HackerRank
+-- Difficulty: Easy
+-- Topic: SQL Basics
+Query the difference between the maximum and minimum populations in CITY;
+
+
 
 
 
