@@ -176,6 +176,17 @@ where District ='California';
 
 
 
+-- Problem:Query the average population of all cities in CITY where District is California.
+-- Platform: HackerRank
+-- Difficulty: Easy
+-- Topic: SQL Basics
+Select Avg(Population) from city
+where District ='California';
+
+
+
+
+
 
 
 
