@@ -208,4 +208,8 @@ SELECT CAST( CEILING( AVG(CAST(salary AS FLOAT)) - AVG(CAST(REPLACE(CAST(salary 
 
 
 
-
+-- Problem: We define an employee's total earnings to be their monthly  worked, and the maximum total earnings to be the maximum total earnings for any employee in the Employee table. Write a query to find the maximum total earnings for all employees as well as the total number of employees who have maximum total earnings. Then print these values as  space-separated integers.
+-- Platform: HackerRank
+-- Difficulty: Easy
+-- Topic: SQL Basics
+select  MAX(salary * months) as earning, count(*) from employee where (salary * months) = (select MAX(salary*months)from employee);
