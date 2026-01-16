@@ -1,1 +1,4 @@
-
+-- Problem:
+-- Platform: HackerRank
+-- Difficulty: Intermediate
+-- Topic: SQL Intermediate
