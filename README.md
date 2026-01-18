@@ -13,7 +13,7 @@ Structured solutions to HackerRank problems in SQL and Python, organized by diff
 Levels :-
         Basic problems Solved = 21
         Intermediate problems Solved = 1
-        Advan
+        Advance Problems Solved = 1
 
 
 
